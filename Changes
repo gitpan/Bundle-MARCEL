@@ -4,6 +4,13 @@ global:
 releases:
   - author: 'Marcel Gruenauer <marcel@cpan.org>'
     changes:
+      - Added Template::Plugin::Filter::Pipe
+    date: 2007-11-11T23:36:42Z
+    tags:
+      - FEATURE
+    version: 0.03
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
       - Added new distributions
     date: 2007-11-11T22:50:09Z
     tags:

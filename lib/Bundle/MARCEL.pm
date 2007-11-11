@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 
 1;
@@ -128,6 +128,8 @@ String::BlackWhiteList
 String::FlexMatch
 
 Sub::CharacterProperties
+
+Template::Plugin::Filter::Pipe
 
 Term::Shell::Enhanced
 
