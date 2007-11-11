@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 1;
@@ -105,9 +105,13 @@ Module::Cloud
 
 Module::Install::StandardTests
 
+Module::Install::Template
+
 Net::IP::Match
 
 Number::Rangify
+
+Pod::Generated
 
 Regexp::Common::AT::NICAT
 
@@ -132,6 +136,12 @@ Test::CompanionClasses
 Test::Compile
 
 Test::Distribution
+
+Text::Pipe
+
+Text::Pipe::HTML
+
+Text::Pipe::Encoding
 
 Text::UpsideDown
 

@@ -4,6 +4,13 @@ global:
 releases:
   - author: 'Marcel Gruenauer <marcel@cpan.org>'
     changes:
+      - Added new distributions
+    date: 2007-11-11T22:50:09Z
+    tags:
+      - FEATURE
+    version: 0.02
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
       - original version
     date: 2007-11-10T15:29:43Z
     tags: []
