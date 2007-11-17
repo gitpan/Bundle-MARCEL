@@ -4,13 +4,15 @@ use strict;
 use warnings;
 
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 
 1;
 
 
 __END__
+
+
 
 =head1 NAME
 
@@ -33,13 +35,19 @@ Acme::Tiroler
 
 App::vget
 
-Aspect
+Aspect::Trace
 
 Attribute::Overload
 
 Attribute::TieClasses
 
-Attribute::Util
+Bundle::MARCEL
+
+Bundle::MARCEL::Likes
+
+Bundle::Perl6
+
+Business::Address::POBox
 
 Carp::Source
 
@@ -63,6 +71,8 @@ Class::Value::Contact
 
 Class::Value::Net
 
+DBIx::Lookup::Field
+
 Data::Comparable
 
 Data::Container
@@ -75,7 +85,11 @@ Data::Miscellany
 
 Data::Storage
 
-DBIx::Lookup::Field
+Data::Timeline
+
+Data::Timeline::IScrobbler
+
+Data::Timeline::SVK
 
 Devel::SearchINC
 
@@ -93,8 +107,6 @@ Games::Go::Rank
 
 Getopt::Attribute
 
-GraphViz::DBI
-
 GraphViz::ISA
 
 Hook::Modular
@@ -111,17 +123,25 @@ Net::IP::Match
 
 Number::Rangify
 
+PerlIO::via::Pipe
+
 Pod::Generated
 
 Regexp::Common::AT::NICAT
 
 Scalar::Properties
 
+ShipIt::Bundle
+
+ShipIt::Step::ApplyYAMLChangeLogVersion
+
 ShipIt::Step::CheckYAMLChangeLog
 
 ShipIt::Step::DistClean
 
 ShipIt::Step::Manifest
+
+ShipIt::Step::Twitter
 
 String::BlackWhiteList
 
@@ -137,15 +157,19 @@ Test::CompanionClasses
 
 Test::Compile
 
-Test::Distribution
-
 Text::Pipe
 
-Text::Pipe::HTML
+Text::Pipe::Bundle
 
 Text::Pipe::Encoding
 
+Text::Pipe::HTML
+
+Text::Pipe::Translate
+
 Text::UpsideDown
+
+Tie::Hash::Test
 
 Tie::Scalar::Timeout
 
@@ -156,12 +180,16 @@ YAML::Active
 If you talk about this module in blogs, on del.icio.us or anywhere else,
 please use the C<bundlemarcel> tag.
 
+=head1 VERSION 
+                   
+This document describes version 0.04 of L<Bundle::MARCEL>.
+
 =head1 BUGS AND LIMITATIONS
 
 No bugs have been reported.
 
 Please report any bugs or feature requests to
-C<bug-bundle-marcel@rt.cpan.org>, or through the web interface at
+C<<bug-bundle-marcel@rt.cpan.org>>, or through the web interface at
 L<http://rt.cpan.org>.
 
 =head1 INSTALLATION
@@ -184,6 +212,7 @@ Copyright 2007 by Marcel GrE<uuml>nauer
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
+
 
 =cut
 
