@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 
 1;
@@ -31,7 +31,11 @@ only want to do this if you are MARCEL.
 
 =head1 CONTENTS
 
+
+
 Acme::Tiroler
+
+App::sync_cpantesters
 
 App::vget
 
@@ -51,6 +55,8 @@ Business::Address::POBox
 
 Carp::Source
 
+Class::Accessor::Bundle
+
 Class::Accessor::Complex
 
 Class::Accessor::Constructor
@@ -67,9 +73,15 @@ Class::Scaffold
 
 Class::Value
 
+Class::Value::Bundle
+
 Class::Value::Contact
 
 Class::Value::Net
+
+Class::Value::SemanticAdapter
+
+Class::Value::URI
 
 DBIx::Lookup::Field
 
@@ -79,13 +91,31 @@ Data::Container
 
 Data::Conveyor
 
+Data::Domain::Bundle
+
+Data::Domain::Net
+
+Data::Domain::SemanticAdapter
+
+Data::Domain::URI
+
 Data::Inherited
 
 Data::Miscellany
 
+Data::Semantic
+
+Data::Semantic::Bundle
+
+Data::Semantic::Net
+
+Data::Semantic::URI
+
 Data::Storage
 
 Data::Timeline
+
+Data::Timeline::Bundle
 
 Data::Timeline::IScrobbler
 
@@ -109,6 +139,8 @@ Getopt::Attribute
 
 GraphViz::ISA
 
+Hash::Rename
+
 Hook::Modular
 
 Module::Changes
@@ -129,6 +161,8 @@ Pod::Generated
 
 Regexp::Common::AT::NICAT
 
+Regexp::Common::AT::Profanity
+
 Scalar::Properties
 
 ShipIt::Bundle
@@ -139,6 +173,8 @@ ShipIt::Step::CheckYAMLChangeLog
 
 ShipIt::Step::DistClean
 
+ShipIt::Step::Jaiku
+
 ShipIt::Step::Manifest
 
 ShipIt::Step::Twitter
@@ -148,6 +184,8 @@ String::BlackWhiteList
 String::FlexMatch
 
 Sub::CharacterProperties
+
+Template::Plugin::CPAN::Packages
 
 Template::Plugin::Filter::Pipe
 
@@ -169,9 +207,9 @@ Text::Pipe::Translate
 
 Text::UpsideDown
 
-Tie::Hash::Test
-
 Tie::Scalar::Timeout
+
+Vim::Complete
 
 YAML::Active
 
@@ -182,7 +220,7 @@ please use the C<bundlemarcel> tag.
 
 =head1 VERSION 
                    
-This document describes version 0.04 of L<Bundle::MARCEL>.
+This document describes version 0.05 of L<Bundle::MARCEL>.
 
 =head1 BUGS AND LIMITATIONS
 
