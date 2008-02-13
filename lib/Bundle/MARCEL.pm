@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 
 1;
@@ -31,9 +31,9 @@ only want to do this if you are MARCEL.
 
 =head1 CONTENTS
 
-
-
 Acme::Tiroler
+
+Algorithm::EquivalenceSets
 
 App::sync_cpantesters
 
@@ -43,11 +43,13 @@ Aspect::Trace
 
 Attribute::Overload
 
+Attribute::SubName
+
 Attribute::TieClasses
 
-Bundle::MARCEL
-
 Bundle::MARCEL::Likes
+
+Bundle::NICAT
 
 Bundle::Perl6
 
@@ -137,11 +139,17 @@ Games::Go::Rank
 
 Getopt::Attribute
 
+Google::Chart
+
 GraphViz::ISA
+
+Hash::Inflator
 
 Hash::Rename
 
 Hook::Modular
+
+LWP::UserAgent::ProgressBar
 
 Module::Changes
 
@@ -189,6 +197,8 @@ Template::Plugin::CPAN::Packages
 
 Template::Plugin::Filter::Pipe
 
+Template::Plugin::GoogleChart
+
 Term::Shell::Enhanced
 
 Test::CompanionClasses
@@ -205,7 +215,11 @@ Text::Pipe::HTML
 
 Text::Pipe::Translate
 
+Text::Pipe::W3CDTF
+
 Text::UpsideDown
+
+Tie::Array::Test
 
 Tie::Scalar::Timeout
 
@@ -220,7 +234,7 @@ please use the C<bundlemarcel> tag.
 
 =head1 VERSION 
                    
-This document describes version 0.05 of L<Bundle::MARCEL>.
+This document describes version 0.06 of L<Bundle::MARCEL>.
 
 =head1 BUGS AND LIMITATIONS
 
@@ -246,7 +260,7 @@ Marcel GrE<uuml>nauer, C<< <marcel@cpan.org> >>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2007 by Marcel GrE<uuml>nauer
+Copyright 2007-2008 by Marcel GrE<uuml>nauer
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

@@ -4,6 +4,14 @@ global:
 releases:
   - author: 'Marcel Gruenauer <marcel@cpan.org>'
     changes:
+      - set the version to 0.06
+      - removed circular dependency
+      - regenerated bundle contents
+    date: 2008-02-13T17:00:45Z
+    tags: []
+    version: 0.06
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
       - set the version to 0.05
       - changed template to use Template::Plugin::CPAN::Packages
       - updated t/perlcriticrc
