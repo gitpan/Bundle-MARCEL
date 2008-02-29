@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 
 1;
@@ -46,12 +46,6 @@ Attribute::Overload
 Attribute::SubName
 
 Attribute::TieClasses
-
-Bundle::MARCEL::Likes
-
-Bundle::NICAT
-
-Bundle::Perl6
 
 Business::Address::POBox
 
@@ -234,7 +228,7 @@ please use the C<bundlemarcel> tag.
 
 =head1 VERSION 
                    
-This document describes version 0.06 of L<Bundle::MARCEL>.
+This document describes version 0.07 of L<Bundle::MARCEL>.
 
 =head1 BUGS AND LIMITATIONS
 
