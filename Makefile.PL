@@ -5,14 +5,12 @@ name 'Bundle-MARCEL';
 all_from 'lib/Bundle/MARCEL.pm';
 perl_version '5.006';
 
-process_templates(
-    first_year => 2007,
-    rest_from  => "$ENV{HOME}/.mitlib/standard_pod",
-    start_tag  => '{%',
-    end_tag    => '%}',
-);
+recommends 'Test::Pod';
+recommends 'Test::Pod::Coverage';
 
-use_standard_tests(without => 'pod_coverage');
+test_requires 'Test::More' => '0.70';
+test_requires 'Test::Compile';
+
 auto_install;
 auto_include;
 WriteAll;

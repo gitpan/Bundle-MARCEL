@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 
 1;
@@ -31,13 +31,21 @@ only want to do this if you are MARCEL.
 
 =head1 CONTENTS
 
+Acme::CPANAuthors::Austrian
+
 Acme::Tiroler
 
 Algorithm::EquivalenceSets
 
+App::Benchmark
+
+App::Benchmark::Accessors
+
 App::sync_cpantesters
 
 App::vget
+
+Aspect
 
 Aspect::Trace
 
@@ -50,8 +58,6 @@ Attribute::TieClasses
 Business::Address::POBox
 
 Carp::Source
-
-Class::Accessor::Bundle
 
 Class::Accessor::Complex
 
@@ -69,8 +75,6 @@ Class::Scaffold
 
 Class::Value
 
-Class::Value::Bundle
-
 Class::Value::Contact
 
 Class::Value::Net
@@ -79,6 +83,8 @@ Class::Value::SemanticAdapter
 
 Class::Value::URI
 
+DB::Pluggable
+
 DBIx::Lookup::Field
 
 Data::Comparable
@@ -86,8 +92,6 @@ Data::Comparable
 Data::Container
 
 Data::Conveyor
-
-Data::Domain::Bundle
 
 Data::Domain::Net
 
@@ -99,9 +103,9 @@ Data::Inherited
 
 Data::Miscellany
 
-Data::Semantic
+Data::Pack
 
-Data::Semantic::Bundle
+Data::Semantic
 
 Data::Semantic::Net
 
@@ -110,8 +114,6 @@ Data::Semantic::URI
 Data::Storage
 
 Data::Timeline
-
-Data::Timeline::Bundle
 
 Data::Timeline::IScrobbler
 
@@ -127,6 +129,8 @@ Error::Hierarchy
 
 Exporter::Simple
 
+File::Find::Upwards
+
 Games::Go::Coordinate
 
 Games::Go::Rank
@@ -134,6 +138,8 @@ Games::Go::Rank
 Getopt::Attribute
 
 Google::Chart
+
+GraphViz::DBI
 
 GraphViz::ISA
 
@@ -167,8 +173,6 @@ Regexp::Common::AT::Profanity
 
 Scalar::Properties
 
-ShipIt::Bundle
-
 ShipIt::Step::ApplyYAMLChangeLogVersion
 
 ShipIt::Step::CheckYAMLChangeLog
@@ -201,8 +205,6 @@ Test::Compile
 
 Text::Pipe
 
-Text::Pipe::Bundle
-
 Text::Pipe::Encoding
 
 Text::Pipe::HTML
@@ -219,23 +221,15 @@ Tie::Scalar::Timeout
 
 Vim::Complete
 
+Vim::Tag
+
 YAML::Active
-
-=head1 TAGS
-
-If you talk about this module in blogs, on del.icio.us or anywhere else,
-please use the C<bundlemarcel> tag.
-
-=head1 VERSION 
-                   
-This document describes version 0.07 of L<Bundle::MARCEL>.
 
 =head1 BUGS AND LIMITATIONS
 
 No bugs have been reported.
 
-Please report any bugs or feature requests to
-C<<bug-bundle-marcel@rt.cpan.org>>, or through the web interface at
+Please report any bugs or feature requests through the web interface at
 L<http://rt.cpan.org>.
 
 =head1 INSTALLATION
@@ -248,13 +242,13 @@ The latest version of this module is available from the Comprehensive Perl
 Archive Network (CPAN). Visit <http://www.perl.com/CPAN/> to find a CPAN
 site near you. Or see <http://www.perl.com/CPAN/authors/id/M/MA/MARCEL/>.
 
-=head1 AUTHOR
+=head1 AUTHORS
 
 Marcel GrE<uuml>nauer, C<< <marcel@cpan.org> >>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2007-2008 by Marcel GrE<uuml>nauer
+Copyright 2007-2008 by the authors.
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
